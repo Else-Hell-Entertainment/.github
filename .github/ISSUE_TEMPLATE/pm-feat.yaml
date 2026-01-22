@@ -2,7 +2,7 @@ name: Feature Plan (project management)
 description: Describe a new feature (e.g., "Player Character")
 title: "[Feat]: "
 labels: ["enhancement"]
-type: Feat
+type: Feature
 
 body:
   - type: textarea
