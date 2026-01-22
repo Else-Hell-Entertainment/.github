@@ -1,0 +1,22 @@
+name: Feature Plan (project management)
+description: Describe a new feature (e.g., "Player Character")
+title: "[Feat]: "
+labels: ["enhancement"]
+type: Feat
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short description of the feature. What it does, why it's needed, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance criteria
+      description: What must be accomplished for this feature to be cosidered finished?
+    validations:
+      required: true
